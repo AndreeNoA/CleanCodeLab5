@@ -1,0 +1,12 @@
+﻿@page
+@model FrontEnd.Pages.CreateModel
+@{
+}
+<p>Create new bug</p>
+<div>
+    <form method="post">
+        <input placeholder="Describe bug" type="text" asp-for="Message.Text">
+        <input placeholder="Your name" type="text" asp-for="Message.Author">
+        <input type="submit">
+    </form>
+</div>

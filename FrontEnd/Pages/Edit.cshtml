@@ -1,0 +1,13 @@
+﻿@page
+@model FrontEnd.Pages.EditModel
+@{
+}
+<p>Edit bug message</p>
+<div>
+
+    <form method="post">
+        <input placeholder="Describe bug" type="text" asp-for="PickedId" hidden>
+        <input placeholder="Describe bug" type="text" asp-for="Message.Text">
+        <input type="submit">
+    </form>
+</div>
